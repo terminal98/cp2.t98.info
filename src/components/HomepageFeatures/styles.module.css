@@ -9,3 +9,36 @@
   height: 200px;
   width: 200px;
 }
+
+.card {
+  margin: 2.5rem;
+  border-radius: 20px;
+  mix-blend-mode: normal;
+  min-height: 33rem;
+  width: 41rem;
+  min-width: 33rem;
+  -webkit-box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .15);
+  box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .15);
+  padding: 2.9rem 2.5rem;
+}
+
+.icon {
+  font-size: 4.6rem;
+  font-weight: 900;
+}
+
+.icon svg {
+  height: 4rem;
+  font-size: 4rem;
+  color: var(--card-color-0);
+}
+
+.heading {
+  margin: 2.5rem 0 1.9rem;
+  font-family: THICCCBOI, Arial, sans-serif;
+  font-size: 2rem;
+}
+
+.learn-more {
+  color: var(--card-color-0);
+}

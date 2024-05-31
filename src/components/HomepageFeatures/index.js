@@ -35,7 +35,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
@@ -48,6 +48,22 @@ function Feature({Svg, title, description}) {
     </div>
   );
 }
+
+function Card({ Svg, title, description }) {
+  return (
+    <div className={clsx(styles.card)}>
+      <div>
+        <div className={clsx(styles.icon)}>
+          <Svg role="img" />
+        </div>
+        <Heading className={clsx(styles.heading)} as="h3">{title}</Heading>
+        <p>{description}</p>
+      </div>
+    </div>
+  );
+}
+
+
 
 export default function HomepageFeatures() {
   return (

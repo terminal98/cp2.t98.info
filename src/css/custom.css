@@ -6,25 +6,84 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #031ca7;
+  --ifm-color-primary-dark: #031996;
+  --ifm-color-primary-darker: #03188e;
+  --ifm-color-primary-darkest: #021475;
+  --ifm-color-primary-light: #031fb8;
+  --ifm-color-primary-lighter: #0320c0;
+  --ifm-color-primary-lightest: #0424d9;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
+  --ifm-color-primary: #5ba3f5;
+  --ifm-color-primary-dark: #3b91f3;
+  --ifm-color-primary-darker: #2b88f2;
+  --ifm-color-primary-darkest: #0e6fde;
+  --ifm-color-primary-light: #7bb5f7;
+  --ifm-color-primary-lighter: #8bbef8;
+  --ifm-color-primary-lightest: #bad8fb;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='light']>body {
+  background: linear-gradient(to right, #cae6f7, #ffffff, #e9ddf3);
+}
+
+[data-theme='light'] a.footer__link-item {
+  color: var(--ifm-footer-link-color);
+}
+
+.header-xtwitter-link:before {
+  background-color: var(--ifm-navbar-link-color);
+  content: "";
+  display: flex;
+  height: 24px;
+  -webkit-mask-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20d%3D%22M389.2%2048h70.6L305.6%20224.2%20487%20464H345L233.7%20318.6%20106.5%20464H35.8L200.7%20275.5%2026.8%2048H172.4L272.9%20180.9%20389.2%2048zM364.4%20421.8h39.1L151.1%2088h-42L364.4%20421.8z%22%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20d%3D%22M389.2%2048h70.6L305.6%20224.2%20487%20464H345L233.7%20318.6%20106.5%20464H35.8L200.7%20275.5%2026.8%2048H172.4L272.9%20180.9%20389.2%2048zM364.4%20421.8h39.1L151.1%2088h-42L364.4%20421.8z%22%2F%3E%3C%2Fsvg%3E");
+  width: 24px;
+  margin: 0;
+}
+
+.header-envelope-link:before {
+  background-color: var(--ifm-navbar-link-color);
+  content: "";
+  display: flex;
+  height: 24px;
+  -webkit-mask-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20d%3D%22M48%2064C21.5%2064%200%2085.5%200%20112c0%2015.1%207.1%2029.3%2019.2%2038.4L236.8%20313.6c11.4%208.5%2027%208.5%2038.4%200L492.8%20150.4c12.1-9.1%2019.2-23.3%2019.2-38.4c0-26.5-21.5-48-48-48H48zM0%20176V384c0%2035.3%2028.7%2064%2064%2064H448c35.3%200%2064-28.7%2064-64V176L294.4%20339.2c-22.8%2017.1-54%2017.1-76.8%200L0%20176z%22%2F%3E%3C%2Fsvg%3E");
+  mask-image: url("data:image/svg+xml;charset=utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20512%20512%22%3E%3Cpath%20d%3D%22M48%2064C21.5%2064%200%2085.5%200%20112c0%2015.1%207.1%2029.3%2019.2%2038.4L236.8%20313.6c11.4%208.5%2027%208.5%2038.4%200L492.8%20150.4c12.1-9.1%2019.2-23.3%2019.2-38.4c0-26.5-21.5-48-48-48H48zM0%20176V384c0%2035.3%2028.7%2064%2064%2064H448c35.3%200%2064-28.7%2064-64V176L294.4%20339.2c-22.8%2017.1-54%2017.1-76.8%200L0%20176z%22%2F%3E%3C%2Fsvg%3E");
+  width: 24px;
+  margin: 0;
+}
+
+.header-xtwitter-link:hover:before,
+.header-envelope-link:hover:before {
+  background-color: var(--ifm-navbar-link-hover-color);
+}
+
+@media (max-width: 996px) {
+  .header-xtwitter-link::after {
+    content: " X/Twitter @98tml";
+  }
+
+  .header-envelope-link::after {
+    content: " お問い合わせ";
+  }
+
+  .footer__col {
+    --ifm-col-width: 50%;
+    flex-basis: var(--ifm-col-width);
+    margin-left: 0;
+    font-size: 80%;
+  }
+}
+
+@media (min-width: 996px) {
+  .navbar {
+    background-color: transparent;
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+  }
 }

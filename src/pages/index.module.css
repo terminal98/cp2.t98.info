@@ -8,6 +8,10 @@
   text-align: center;
   position: relative;
   overflow: hidden;
+  background-image: url("/img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 
 @media screen and (max-width: 996px) {
@@ -16,8 +20,118 @@
   }
 }
 
+.heroTitle {
+  /*background: #677eff40;*/
+  width: calc(250px + 1.25vw);
+}
+
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.heroSubTitle {
+  color: #fff;
+  font-size: calc(50% + 1vw);
+}
+
+.heroChara {
+  height: 500px;
+  pointer-events: none;
+  position: absolute;
+  right: 1vw;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  --coefficient-parallax: 4;
+  top: -70px;
+}
+
+@media screen and (max-width: 996px) {
+  .heroChara {
+    height: 250px;
+    right: -40px;
+    top: -40px;
+  }
+
+  @media screen and (max-width: 640px) {
+    .heroChara {
+      display: none;
+    }
+  }
+}
+
+.scrollArrows {
+  width: 60px;
+  height: 72px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  bottom: 20px;
+}
+
+.scrollArrows path {
+  stroke: #fff;
+  fill: transparent;
+  stroke-width: 1px;
+  animation: arrow 2s infinite;
+  -webkit-animation: arrow 2s infinite;
+}
+
+@keyframes arrow {
+  0% {
+    opacity: 0
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+@-webkit-keyframes arrow
+
+/*Safari and Chrome*/
+  {
+  0% {
+    opacity: 0
+  }
+
+  40% {
+    opacity: 1
+  }
+
+  80% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 0
+  }
+}
+
+.scrollArrows .a1 {
+  animation-delay: -1s;
+  -webkit-animation-delay: -1s;
+  /* Safari 和 Chrome */
+}
+
+.scrollArrows .a2 {
+  animation-delay: -0.5s;
+  -webkit-animation-delay: -0.5s;
+  /* Safari 和 Chrome */
+}
+
+.scrollArrows .a3 {
+  animation-delay: 0s;
+  -webkit-animation-delay: 0s;
+  /* Safari 和 Chrome */
 }

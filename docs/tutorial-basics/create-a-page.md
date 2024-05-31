@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Create a Page
+# 🎁 お い！
 
 Add **Markdown or React** files to `src/pages` to create a **standalone page**:
 
@@ -27,6 +27,27 @@ export default function MyReactPage() {
   );
 }
 ```
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs>
+  <TabItem value="apple" label="Apple" default>
+This is an apple 🍎
+
+
+おいおいおい！！！
+
+はぁ！？？？？
+
+  </TabItem>
+  <TabItem value="orange" label="Orange">
+    This is an orange 🍊
+  </TabItem>
+  <TabItem value="banana" label="Banana">
+    This is a banana 🍌
+  </TabItem>
+</Tabs>
 
 A new page is now available at [http://localhost:3000/my-react-page](http://localhost:3000/my-react-page).
 
