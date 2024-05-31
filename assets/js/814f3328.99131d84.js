@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkcp_test=self.webpackChunkcp_test||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"\u306f\u3041\u3042\u3042\uff01\uff1f\uff01\uff1f","permalink":"/blog/2024/052901","unlisted":false}]}')}}]);

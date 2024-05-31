@@ -4,7 +4,7 @@
         <title>にじてくと Blog</title>
         <link>https://cp2.t98.info/blog/</link>
         <description>にじてくと Blog</description>
-        <lastBuildDate>Tue, 28 May 2024 17:42:20 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 31 May 2024 13:18:04 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>ja</language>
@@ -12,7 +12,18 @@
             <title><![CDATA[はぁああ！？！？]]></title>
             <link>https://cp2.t98.info/blog/2024/052901/</link>
             <guid>https://cp2.t98.info/blog/2024/052901/</guid>
-            <pubDate>Tue, 28 May 2024 17:42:20 GMT</pubDate>
+            <pubDate>Fri, 31 May 2024 13:18:04 GMT</pubDate>
+            <description><![CDATA[てすとんあんjyなああ！！！！]]></description>
+            <content:encoded><![CDATA[<p>てすとんあんjyなああ！！！！</p>]]></content:encoded>
+            <category>facebook</category>
+            <category>hello</category>
+            <category>docusaurus</category>
+        </item>
+        <item>
+            <title><![CDATA[2日目だよなぁ！？！？！？！]]></title>
+            <link>https://cp2.t98.info/blog/2024/052902/</link>
+            <guid>https://cp2.t98.info/blog/2024/052902/</guid>
+            <pubDate>Fri, 31 May 2024 13:18:04 GMT</pubDate>
             <description><![CDATA[てすとんあんjyなああ！！！！]]></description>
             <content:encoded><![CDATA[<p>てすとんあんjyなああ！！！！</p>]]></content:encoded>
             <category>facebook</category>
