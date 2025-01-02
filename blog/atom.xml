@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://cp2.t98.info/blog/</id>
+    <id>https://cp2.t98.info/cp2.t98.info/blog/</id>
     <title>にじてくと Blog</title>
     <updated>2024-05-31T13:18:04.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://cp2.t98.info/blog/"/>
+    <link rel="alternate" href="https://cp2.t98.info/cp2.t98.info/blog/"/>
     <subtitle>にじてくと Blog</subtitle>
-    <icon>https://cp2.t98.info/img/favicon.ico</icon>
+    <icon>https://cp2.t98.info/cp2.t98.info/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[はぁああ！？！？]]></title>
-        <id>https://cp2.t98.info/blog/2024/052901/</id>
-        <link href="https://cp2.t98.info/blog/2024/052901/"/>
+        <id>https://cp2.t98.info/cp2.t98.info/blog/2024/052901/</id>
+        <link href="https://cp2.t98.info/cp2.t98.info/blog/2024/052901/"/>
         <updated>2024-05-31T13:18:04.000Z</updated>
         <summary type="html"><![CDATA[てすとんあんjyなああ！！！！]]></summary>
         <content type="html"><![CDATA[<p>てすとんあんjyなああ！！！！</p>]]></content>
@@ -24,8 +24,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[2日目だよなぁ！？！？！？！]]></title>
-        <id>https://cp2.t98.info/blog/2024/052902/</id>
-        <link href="https://cp2.t98.info/blog/2024/052902/"/>
+        <id>https://cp2.t98.info/cp2.t98.info/blog/2024/052902/</id>
+        <link href="https://cp2.t98.info/cp2.t98.info/blog/2024/052902/"/>
         <updated>2024-05-31T13:18:04.000Z</updated>
         <summary type="html"><![CDATA[てすとんあんjyなああ！！！！]]></summary>
         <content type="html"><![CDATA[<p>てすとんあんjyなああ！！！！</p>]]></content>

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcp_test=self.webpackChunkcp_test||[]).push([[729],{3078:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/cp2.t98.info/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

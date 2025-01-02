@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkcp_test=self.webpackChunkcp_test||[]).push([[830],{8656:e=>{e.exports=JSON.parse('{"tags":[{"label":"facebook","permalink":"/cp2.t98.info/blog/tags/facebook","count":2},{"label":"hello","permalink":"/cp2.t98.info/blog/tags/hello","count":2},{"label":"docusaurus","permalink":"/cp2.t98.info/blog/tags/docusaurus","count":2}]}')}}]);
