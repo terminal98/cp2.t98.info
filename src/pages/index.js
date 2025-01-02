@@ -26,12 +26,20 @@ function HomepageHeader() {
 
 function BlogPostHtml() {
   const recentPosts = require("../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json");
-  console.log(recentPosts);
-  return recentPosts.items.slice(0, 5).map((item, index) => (
+  //console.log(recentPosts);
+  const formatDate = (dateString) => {
+    const options = { year: 'numeric', month: '2-digit', day: '2-digit' };
+    const date = new Date(dateString);
+    return date.toLocaleDateString('ja-JP', options).replace(/\//g, '-').replace(',', '');
+  };
+  const outputHtml = recentPosts.items.slice(0, 5).map((item, index) => (
     <li key={index}>
-      <a href={`${item.permalink}`}>{item.title}</a>{" "}
+      {formatDate(item.date)}
+      <a href={`${item.permalink}`}> {item.title}</a>{" "}
     </li>
   ));
+
+  return outputHtml;
 }
 
 function HomepageTopicTitle(text) {
@@ -45,8 +53,8 @@ export default function Home() {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <h3>にじてくとって何？</h3>
-        こんなことをしています。。
+        <h3 className='homeTopicTitle'>こんなことをしています</h3>
+
         <HomepageFeatures />
         <ul>
           <BlogPostHtml />

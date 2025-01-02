@@ -16,7 +16,7 @@ const config = {
   url: 'https://cp2.t98.info',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/cp2.t98.info/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
